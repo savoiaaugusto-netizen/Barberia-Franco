@@ -5,15 +5,17 @@
     
     <!-- Footer -->
     <footer class="bg-brand-dark border-t border-brand-gray pt-16 pb-8 mt-auto relative overflow-hidden">
+        <!-- Decoración Background -->
         <div class="absolute top-0 right-0 w-64 h-64 bg-brand-accent/5 rounded-full blur-3xl -translate-y-1/2 translate-x-1/3"></div>
+        
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
             <div class="grid grid-cols-1 md:grid-cols-3 gap-12 mb-12">
                 <div>
-                    <a href="index.php" class="text-3xl font-heading font-bold tracking-wider text-white mb-4 block">
-                        FRANCO<span class="text-brand-accent">.</span>
+                    <a href="index.php" class="text-2xl font-heading font-bold tracking-wider text-white mb-4 block">
+                        BRIAN FRANCO<span class="text-brand-accent">.</span>
                     </a>
-                    <p class="text-gray-400 mt-4 leading-relaxed max-w-sm">
-                        Tu barbería de barrio con estilo urbano. Cortes modernos, fade perfecto y atención premium en un ambiente relajado.
+                    <p class="text-gray-400 mt-4 leading-relaxed font-light max-w-sm">
+                        Barbería de excelencia en Berazategui. Simplicidad, calidad y el mejor ambiente.
                     </p>
                     <div class="flex space-x-4 mt-6">
                         <a href="#" class="w-10 h-10 rounded-full bg-brand-black border border-brand-gray flex items-center justify-center text-gray-400 hover:bg-brand-accent hover:border-brand-accent hover:text-white transition-all hover:scale-110 shadow-lg">
@@ -51,15 +53,11 @@
                     <ul class="space-y-4 text-gray-400">
                         <li class="flex items-start group">
                             <i class="fa-solid fa-location-dot mt-1 mr-4 text-brand-accent group-hover:scale-110 transition-transform"></i>
-                            <span class="leading-tight">Av. Siempre Viva 742<br>Barrio Urbano, Ciudad</span>
+                            <span class="leading-tight">C.164 1328 E 13 y 14<br>Berazategui, Buenos Aires</span>
                         </li>
                         <li class="flex items-center group">
-                            <i class="fa-solid fa-phone mr-4 text-brand-accent group-hover:scale-110 transition-transform"></i>
-                            <span>+54 11 1234-5678</span>
-                        </li>
-                        <li class="flex items-center group">
-                            <i class="fa-solid fa-envelope mr-4 text-brand-accent group-hover:scale-110 transition-transform"></i>
-                            <a href="mailto:hola@barberiafranco.com" class="hover:text-white transition-colors">hola@barberiafranco.com</a>
+                            <i class="fa-brands fa-whatsapp mr-4 text-brand-accent group-hover:scale-110 transition-transform text-lg"></i>
+                            <span>+54 9 11 1234-5678</span>
                         </li>
                     </ul>
                 </div>
@@ -67,22 +65,23 @@
             
             <div class="border-t border-brand-gray pt-8 flex flex-col md:flex-row justify-between items-center">
                 <p class="text-gray-500 text-sm">
-                    &copy; <?= date('Y') ?> Barbería Franco. Todos los derechos reservados.
+                    &copy; <?= date('Y') ?> Brian Franco Barbería. Todos los derechos reservados.
                 </p>
                 <p class="text-gray-500 text-sm mt-3 md:mt-0 flex items-center">
-                    Diseñado con <i class="fa-solid fa-heart text-red-500 mx-1 animate-pulse"></i> por <span class="text-gray-300 ml-1 font-medium">Antigravity</span>
+                    Diseñado con <i class="fa-solid fa-fire text-brand-accent mx-2 animate-pulse"></i> por Devs
                 </p>
             </div>
         </div>
     </footer>
 
-    <!-- Alpine.js Alternative (Vanilla JS for mobile menu & scroll) -->
+    <!-- Lógica de Interfaz en Vanilla JS -->
     <script>
         document.addEventListener('DOMContentLoaded', () => {
             const menuBtn = document.getElementById('mobile-menu-btn');
             const menu = document.getElementById('mobile-menu');
             const icon = menuBtn.querySelector('i');
             
+            // Toggle Menú Hamburguesa
             menuBtn.addEventListener('click', () => {
                 menu.classList.toggle('hidden');
                 if(menu.classList.contains('hidden')) {
@@ -94,7 +93,7 @@
                 }
             });
             
-            // Dynamic Navbar blur and shadow on scroll
+            // Efecto Glassmorphism del Navbar al Scrollear
             window.addEventListener('scroll', () => {
                 const navbar = document.getElementById('navbar');
                 if (window.scrollY > 20) {
