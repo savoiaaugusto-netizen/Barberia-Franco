@@ -2,10 +2,28 @@
 $page_title = 'Brian Franco Barbería | Berazategui';
 include 'includes/header.php';
 
+// Servicios principales (Sin precios)
+$servicios_destacados = [
+    [
+        'icono' => 'fa-scissors',
+        'titulo' => 'Corte de Pelo',
+        'descripcion' => 'Asesoramiento personalizado, cortes clásicos, modernos y degradados (fade) utilizando técnicas precisas a máquina y tijera.'
+    ],
+    [
+        'icono' => 'fa-check-double', 
+        'titulo' => 'Barba',
+        'descripcion' => 'Perfilado, rebaje de volumen, diseño de líneas y ritual completo para el cuidado de tu barba con productos específicos.'
+    ],
+    [
+        'icono' => 'fa-spray-can',
+        'titulo' => 'Tintura',
+        'descripcion' => 'Servicios de coloración, desde cobertura de canas hasta diseños de color y platinados para cambiar tu look radicalmente.'
+    ]
+];
 ?>
 
 <!-- Hero Section -->
-<section class="relative h-[85vh] flex items-center justify-center overflow-hidden">
+<section class="relative min-h-[85vh] flex items-center justify-center overflow-hidden py-16">
     <!-- IMAGEN HERO -->
     <div class="absolute inset-0 z-0">
         <img src="C:/Users/Augusto Savoia/.gemini/antigravity/brain/31972bfe-e521-4fb8-960b-e0efa8191f87/barberia_hero_1782567682618.png" alt="Brian Franco Barbería Interior" class="w-full h-full object-cover object-center opacity-30">
@@ -30,6 +48,36 @@ include 'includes/header.php';
             <a href="productos.php" class="w-full sm:w-auto bg-transparent border border-white hover:border-brand-accent hover:text-brand-accent text-white px-8 py-4 rounded-sm font-heading font-bold text-lg tracking-wider transition-all uppercase">
                 Ver Productos
             </a>
+        </div>
+    </div>
+</section>
+
+<!-- Features Section -->
+<section class="py-24 bg-brand-black relative" id="servicios">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+        <div class="text-center mb-20">
+            <h2 class="text-4xl md:text-5xl font-heading font-bold mb-4 text-white">NUESTROS <span class="gradient-text">SERVICIOS</span></h2>
+            <div class="w-24 h-1 bg-brand-accent mx-auto"></div>
+        </div>
+        
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8 lg:gap-12">
+            <?php foreach ($servicios_destacados as $servicio): ?>
+            <div class="bg-brand-dark p-8 md:p-10 border border-brand-gray rounded-sm group hover:border-brand-accent/50 transition-all duration-500 hover:-translate-y-2 hover:shadow-[0_20px_40px_rgba(0,0,0,0.6)] relative overflow-hidden flex flex-col items-center text-center">
+                <div class="absolute inset-0 bg-gradient-to-br from-brand-accent/5 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
+                
+                <div class="w-20 h-20 bg-brand-black border border-brand-gray rounded-full flex items-center justify-center mb-6 group-hover:border-brand-accent group-hover:scale-110 transition-all duration-500 relative z-10 shadow-inner">
+                    <i class="fa-solid <?= $servicio['icono'] ?> text-3xl text-brand-accent"></i>
+                </div>
+                
+                <h3 class="text-2xl font-heading font-bold text-white mb-4 relative z-10"><?= htmlspecialchars($servicio['titulo']) ?></h3>
+                <p class="text-gray-400 mb-6 relative z-10 font-light leading-relaxed flex-grow">
+                    <?= htmlspecialchars($servicio['descripcion']) ?>
+                </p>
+                <div class="pt-4 relative z-10 w-full border-t border-brand-gray/50">
+                    <a href="contacto.php" class="text-gray-300 text-sm font-bold uppercase hover:text-brand-accent transition-colors flex items-center justify-center">Consultar turnos <i class="fa-solid fa-arrow-right ml-2 text-xs"></i></a>
+                </div>
+            </div>
+            <?php endforeach; ?>
         </div>
     </div>
 </section>

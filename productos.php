@@ -3,10 +3,30 @@ $page_title = 'Brian Franco Barbería | Productos';
 include 'includes/header.php';
 
 $productos = [
-    ['img' => 'https://placehold.co/500x500/121212/d97706?text=Pomada+Mate', 'nombre' => 'Pomada Texturizante Mate', 'categoria' => 'Fijación'],
-    ['img' => 'https://placehold.co/500x500/121212/d97706?text=Aceite+Barba', 'nombre' => 'Óleo Crecimiento Barba', 'categoria' => 'Cuidado Facial'],
-    ['img' => 'https://placehold.co/500x500/121212/d97706?text=Aftershave', 'nombre' => 'Loción Aftershave Citrus', 'categoria' => 'Post-Afeitado'],
-    ['img' => 'https://placehold.co/500x500/121212/d97706?text=Cera+Brillo', 'nombre' => 'Cera Fijación Extrema', 'categoria' => 'Fijación']
+    [
+        'img' => 'https://placehold.co/500x500/121212/d97706?text=Fijacion', 
+        'nombre' => 'Fijación y Peinado', 
+        'categoria' => 'Estilizado',
+        'desc' => 'Ceras, pomadas, geles, lacas y espumas para mantener tu estilo intacto y definido.'
+    ],
+    [
+        'img' => 'https://placehold.co/500x500/121212/d97706?text=Afeitado', 
+        'nombre' => 'Productos para el Afeitado', 
+        'categoria' => 'Barba',
+        'desc' => 'Cremas, geles transparentes, espumas y bálsamos para después del afeitado.'
+    ],
+    [
+        'img' => 'https://placehold.co/500x500/121212/d97706?text=Cuidado+Facial', 
+        'nombre' => 'Cuidado Facial', 
+        'categoria' => 'Skincare',
+        'desc' => 'Limpiadores, exfoliantes, cremas hidratantes y protectores solares de uso diario.'
+    ],
+    [
+        'img' => 'https://placehold.co/500x500/121212/d97706?text=Fragancias', 
+        'nombre' => 'Perfumería y Fragancias', 
+        'categoria' => 'Aromas',
+        'desc' => 'Perfumes de autor, colonias y aerosoles corporales exclusivos para hombres.'
+    ]
 ];
 ?>
 
@@ -26,7 +46,7 @@ $productos = [
 <section class="py-20 bg-brand-dark min-h-[50vh] relative overflow-hidden">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         
-        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
             <?php foreach($productos as $prod): ?>
             <div class="bg-brand-black border border-brand-gray rounded-sm group hover:border-brand-accent/50 transition-all duration-300 hover:shadow-[0_10px_30px_rgba(0,0,0,0.5)] overflow-hidden flex flex-col">
                 <div class="relative overflow-hidden aspect-square border-b border-brand-gray">
@@ -38,7 +58,8 @@ $productos = [
                 </div>
                 <div class="p-6 text-center flex-grow flex flex-col justify-between">
                     <div>
-                        <h3 class="text-lg font-heading font-bold text-white mb-4 leading-tight"><?= htmlspecialchars($prod['nombre']) ?></h3>
+                        <h3 class="text-lg font-heading font-bold text-white mb-3 leading-tight"><?= htmlspecialchars($prod['nombre']) ?></h3>
+                        <p class="text-gray-400 text-sm mb-6 leading-relaxed"><?= htmlspecialchars($prod['desc']) ?></p>
                     </div>
                     <a href="contacto.php" class="inline-block w-full border border-gray-600 hover:border-brand-accent hover:bg-brand-accent text-white font-heading tracking-wider py-3 transition-all uppercase text-sm">
                         Consultar Stock

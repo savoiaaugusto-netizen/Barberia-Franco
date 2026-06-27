@@ -64,7 +64,7 @@ $current_page = basename($_SERVER['PHP_SELF']);
                 <!-- Menú Desktop -->
                 <div class="hidden md:flex items-center space-x-6 lg:space-x-8">
                     <a href="index.php" class="font-medium transition-colors hover:text-brand-accent <?= $current_page == 'index.php' ? 'text-brand-accent' : 'text-gray-300' ?>">Inicio</a>
-                    <a href="servicios.php" class="font-medium transition-colors hover:text-brand-accent <?= $current_page == 'servicios.php' ? 'text-brand-accent' : 'text-gray-300' ?>">Servicios</a>
+                    <a href="index.php#servicios" class="font-medium transition-colors hover:text-brand-accent text-gray-300">Servicios</a>
                     <a href="productos.php" class="font-medium transition-colors hover:text-brand-accent <?= $current_page == 'productos.php' ? 'text-brand-accent' : 'text-gray-300' ?>">Ver Productos</a>
                     <a href="contacto.php" class="font-medium transition-colors hover:text-brand-accent <?= $current_page == 'contacto.php' ? 'text-brand-accent' : 'text-gray-300' ?>">Contacto</a>
                     <a href="contacto.php" class="bg-brand-accent hover:bg-yellow-600 text-white px-6 py-2 rounded-sm font-heading tracking-wide transition-transform hover:scale-105 shadow-[0_0_15px_rgba(217,119,6,0.3)]">
@@ -84,7 +84,7 @@ $current_page = basename($_SERVER['PHP_SELF']);
         <div id="mobile-menu" class="hidden md:hidden bg-brand-dark border-b border-brand-gray absolute w-full shadow-2xl">
             <div class="px-4 pt-2 pb-6 space-y-2 flex flex-col">
                 <a href="index.php" class="block px-3 py-3 text-base font-medium hover:text-brand-accent hover:bg-brand-gray rounded-md transition-colors <?= $current_page == 'index.php' ? 'text-brand-accent bg-brand-gray/50' : 'text-gray-300' ?>">Inicio</a>
-                <a href="servicios.php" class="block px-3 py-3 text-base font-medium hover:text-brand-accent hover:bg-brand-gray rounded-md transition-colors <?= $current_page == 'servicios.php' ? 'text-brand-accent bg-brand-gray/50' : 'text-gray-300' ?>">Servicios</a>
+                <a href="index.php#servicios" class="block px-3 py-3 text-base font-medium hover:text-brand-accent hover:bg-brand-gray rounded-md transition-colors text-gray-300">Servicios</a>
                 <a href="productos.php" class="block px-3 py-3 text-base font-medium hover:text-brand-accent hover:bg-brand-gray rounded-md transition-colors <?= $current_page == 'productos.php' ? 'text-brand-accent bg-brand-gray/50' : 'text-gray-300' ?>">Ver Productos</a>
                 <a href="contacto.php" class="block px-3 py-3 text-base font-medium hover:text-brand-accent hover:bg-brand-gray rounded-md transition-colors <?= $current_page == 'contacto.php' ? 'text-brand-accent bg-brand-gray/50' : 'text-gray-300' ?>">Contacto</a>
                 <a href="contacto.php" class="block px-3 py-3 mt-4 text-center bg-brand-accent text-white rounded-sm font-heading tracking-wide active:bg-yellow-600">RESERVAR AHORA</a>
