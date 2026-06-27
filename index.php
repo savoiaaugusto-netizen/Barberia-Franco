@@ -35,17 +35,20 @@ $servicios_destacados = [
             <i class="fa-solid fa-location-dot mr-2"></i> C.164 1328 E 13 y 14 (Berazategui)
         </span>
         <h1 class="text-6xl md:text-8xl lg:text-[8rem] font-heading font-bold text-white mb-6 drop-shadow-2xl leading-none">
-            CORTE <br><span class="gradient-text">& ESTILO</span>
+            CORTE <br><span class="gradient-text">Y ESTILO</span>
         </h1>
         <p class="text-lg md:text-xl text-gray-300 mb-10 max-w-2xl mx-auto font-light leading-relaxed">
-            Especialistas en estética masculina. Tu mejor versión empieza en nuestra silla.
+            Los mejores especialistas en estética masculina de Berazategui.
         </p>
-        <div class="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <a href="contacto.php" class="w-full sm:w-auto bg-brand-accent hover:bg-yellow-500 text-brand-black px-10 py-4 rounded-sm font-heading font-bold text-lg tracking-wider transition-all hover:scale-105 shadow-[0_0_30px_rgba(217,119,6,0.4)] uppercase">
+        <div class="flex flex-col sm:flex-row items-center justify-center gap-4 flex-wrap">
+            <a href="contacto.php" class="w-full sm:w-auto bg-brand-accent hover:bg-yellow-500 text-brand-black px-8 py-4 rounded-sm font-heading font-bold text-lg tracking-wider transition-all hover:scale-105 shadow-[0_0_30px_rgba(217,119,6,0.4)] uppercase">
                 Agendar Turno
             </a>
-            <a href="servicios.php" class="w-full sm:w-auto bg-transparent border border-white hover:border-brand-accent hover:text-brand-accent text-white px-10 py-4 rounded-sm font-heading font-bold text-lg tracking-wider transition-all uppercase">
+            <a href="servicios.php" class="w-full sm:w-auto bg-transparent border border-white hover:border-brand-accent hover:text-brand-accent text-white px-8 py-4 rounded-sm font-heading font-bold text-lg tracking-wider transition-all uppercase">
                 Ver Servicios
+            </a>
+            <a href="productos.php" class="w-full sm:w-auto bg-brand-gray/50 backdrop-blur border border-brand-gray hover:border-brand-accent hover:text-brand-accent text-white px-8 py-4 rounded-sm font-heading font-bold text-lg tracking-wider transition-all uppercase">
+                Ver Productos
             </a>
         </div>
     </div>
@@ -101,10 +104,10 @@ $servicios_destacados = [
                 <span class="text-brand-accent font-bold tracking-[0.2em] uppercase text-sm mb-4 block">Nuestra Esencia</span>
                 <h2 class="text-4xl md:text-6xl font-heading font-bold mb-8 text-white leading-tight">SIMPLICIDAD Y <br><span class="gradient-text">CALIDAD</span></h2>
                 <p class="text-gray-300 text-lg mb-6 leading-relaxed font-light">
-                    Ubicados en el corazón de <strong class="text-white font-medium">Berazategui</strong>, en Brian Franco Barbería buscamos brindarte un servicio directo y de primera calidad.
+                    Ubicados en <strong class="text-white font-medium">Berazategui</strong>, en Brian Franco Barbería buscamos brindarte un servicio directo y de primera calidad.
                 </p>
                 <p class="text-gray-400 mb-10 leading-relaxed font-light">
-                    Nuestra filosofía es simple: buenos cortes, excelente atención y un ambiente agradable. Venís, te sentás, te relajás y salís con tu mejor versión. No hace falta más.
+                    Nuestra filosofía es simple: buenos cortes, excelente atención y buena música. Venís, te sentás y salís con tu mejor versión.
                 </p>
                 
                 <a href="contacto.php" class="inline-flex items-center text-brand-black bg-white hover:bg-gray-200 px-8 py-3 font-heading font-bold uppercase tracking-wider transition-colors">

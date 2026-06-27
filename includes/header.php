@@ -58,7 +58,7 @@ $current_page = basename($_SERVER['PHP_SELF']);
             <div class="flex justify-between h-20 items-center">
                 <div class="flex-shrink-0 flex items-center">
                     <a href="index.php" class="text-2xl md:text-3xl font-heading font-bold tracking-wider text-white">
-                        BRIAN FRANCO<span class="text-brand-accent">.</span>
+                        B. FRANCO <span class="text-brand-accent">BARBERÍA</span>
                     </a>
                 </div>
                 <!-- Menú Desktop -->
