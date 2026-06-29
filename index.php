@@ -26,7 +26,7 @@ $servicios_destacados = [
 <section class="relative min-h-[85vh] flex items-center justify-center overflow-hidden py-16">
     <!-- IMAGEN HERO -->
     <div class="absolute inset-0 z-0">
-        <img src="C:/Users/Augusto Savoia/.gemini/antigravity/brain/31972bfe-e521-4fb8-960b-e0efa8191f87/barberia_hero_1782567682618.png" alt="Brian Franco Barbería Interior" class="w-full h-full object-cover object-center opacity-30">
+        <img src="hero.jpg" alt="Brian Franco y su equipo" class="w-full h-full object-cover object-top opacity-30">
         <div class="absolute inset-0 bg-gradient-to-b from-brand-black/80 via-brand-black/50 to-brand-black"></div>
     </div>
     
@@ -91,8 +91,8 @@ $servicios_destacados = [
         <div class="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
             <div class="order-2 lg:order-1 relative group">
                 <div class="absolute -inset-4 bg-brand-accent/20 blur-2xl rounded-full opacity-0 group-hover:opacity-100 transition-opacity duration-700 pointer-events-none"></div>
-                <!-- Placeholder Semántico UI -->
-                <img src="https://placehold.co/600x800/121212/d97706?text=Barber+Vibe" alt="Ambiente de Barbería" class="w-full h-[600px] object-cover rounded-sm border border-brand-gray shadow-2xl relative z-10 grayscale hover:grayscale-0 transition-all duration-700">
+                <!-- Foto del Local -->
+                <img src="local.jpg" alt="Interior de la Barbería" class="w-full h-[600px] object-cover rounded-sm border border-brand-gray shadow-2xl relative z-10 transition-all duration-700 hover:scale-[1.02]">
                 <div class="absolute -bottom-8 -right-8 bg-brand-black border-l-4 border-brand-accent p-8 shadow-2xl z-20 hidden md:block group-hover:scale-105 transition-transform duration-500">
                     <p class="text-2xl font-heading font-bold text-white mb-1">Berazategui</p>
                     <p class="text-gray-400 font-medium tracking-wider uppercase text-sm">Tu barbería local</p>
