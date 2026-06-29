@@ -59,8 +59,8 @@ $current_page = basename($_SERVER['PHP_SELF']);
                 <div class="flex-shrink-0 flex items-center">
                     <a href="index.php" class="flex items-center gap-3">
                         <img src="logo.png" alt="Logo Brian Franco Barbería" class="h-12 w-auto object-contain">
-                        <span class="text-2xl md:text-3xl font-heading font-bold tracking-wider text-white hidden sm:block">
-                            B. FRANCO <span class="text-brand-accent">BARBERÍA</span>
+                        <span class="text-xl md:text-2xl font-heading font-bold tracking-wider text-white hidden sm:block">
+                            BRIAN FRANCO <span class="text-brand-accent">BARBERÍA</span>
                         </span>
                     </a>
                 </div>

@@ -35,8 +35,8 @@ $servicios_destacados = [
             <span class="flex items-center"><i class="fa-solid fa-location-dot mr-2"></i> C.164 1328 E 13 y 14</span>
             <span class="md:ml-2">(Berazategui)</span>
         </span>
-        <h1 class="text-5xl md:text-7xl lg:text-[6.5rem] font-heading font-bold text-white mb-6 drop-shadow-2xl leading-none">
-            CORTE <br><span class="gradient-text">Y ESTILO</span>
+        <h1 class="text-5xl md:text-6xl lg:text-[5.5rem] font-heading font-bold text-white mb-6 drop-shadow-2xl leading-none tracking-tight">
+            BRIAN FRANCO <br><span class="gradient-text">BARBERÍA</span>
         </h1>
         <p class="text-lg md:text-xl text-gray-300 mb-10 max-w-2xl mx-auto font-light leading-relaxed">
             Los mejores especialistas en estética masculina de Berazategui.
