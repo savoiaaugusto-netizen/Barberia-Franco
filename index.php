@@ -30,11 +30,10 @@ $servicios_destacados = [
         <div class="absolute inset-0 bg-gradient-to-b from-brand-black/80 via-brand-black/50 to-brand-black"></div>
     </div>
     
-    <div class="relative z-10 text-center px-4 max-w-5xl mx-auto mt-10">
-        <span class="text-brand-accent font-bold tracking-[0.2em] uppercase text-sm md:text-base mb-4 flex flex-col md:flex-row items-center justify-center animate-fade-in">
-            <span class="flex items-center"><i class="fa-solid fa-location-dot mr-2"></i> C.164 1328 E 13 y 14</span>
-            <span class="md:ml-2">(Berazategui)</span>
-        </span>
+    <div class="relative z-10 text-center px-4 sm:px-6 lg:px-8 pt-16 max-w-5xl mx-auto">
+        <div class="inline-flex flex-col md:flex-row items-center space-y-1 md:space-y-0 md:space-x-2 bg-brand-black/50 border border-brand-gray backdrop-blur-sm px-6 py-2 rounded-full mb-8">
+            <span class="flex items-center text-white text-sm md:text-base"><i class="fa-solid fa-location-dot mr-2 text-brand-accent"></i> C.164 1328, Berazategui</span>
+        </div>
         <h1 class="text-6xl md:text-8xl lg:text-[8rem] font-heading font-bold text-white mb-6 drop-shadow-2xl leading-none">
             CORTE <br><span class="gradient-text">Y ESTILO</span>
         </h1>
@@ -94,8 +93,8 @@ $servicios_destacados = [
                 <!-- Foto del Local -->
                 <img src="local.jpg" alt="Interior de la Barbería" class="w-full h-[600px] object-cover rounded-sm border border-brand-gray shadow-2xl relative z-10 transition-all duration-700 hover:scale-[1.02]">
                 <div class="absolute -bottom-8 -right-8 bg-brand-black border-l-4 border-brand-accent p-8 shadow-2xl z-20 hidden md:block group-hover:scale-105 transition-transform duration-500">
-                    <p class="text-2xl font-heading font-bold text-white mb-1">Berazategui</p>
-                    <p class="text-gray-400 font-medium tracking-wider uppercase text-sm">Tu barbería local</p>
+                    <p class="text-gray-400 font-medium tracking-wider uppercase text-sm mb-1">Local de</p>
+                    <p class="text-2xl font-heading font-bold text-white">Berazategui</p>
                 </div>
             </div>
             <div class="order-1 lg:order-2">
