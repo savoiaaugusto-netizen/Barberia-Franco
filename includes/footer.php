@@ -21,10 +21,10 @@
                         <a href="https://www.instagram.com/brianfrancobarberia?igsh=MXR6N3V2bDJmNmYzZQ==" target="_blank" class="w-10 h-10 rounded-full bg-brand-black border border-brand-gray flex items-center justify-center text-gray-400 hover:bg-brand-accent hover:border-brand-accent hover:text-white transition-all hover:scale-110 shadow-lg">
                             <i class="fa-brands fa-instagram"></i>
                         </a>
-                        <a href="#" class="w-10 h-10 rounded-full bg-brand-black border border-brand-gray flex items-center justify-center text-gray-400 hover:bg-brand-accent hover:border-brand-accent hover:text-white transition-all hover:scale-110 shadow-lg">
+                        <a href="https://www.tiktok.com/@brianfrancobarberia?_r=1&_t=ZS-97hP04Rkqri" target="_blank" class="w-10 h-10 rounded-full bg-brand-black border border-brand-gray flex items-center justify-center text-gray-400 hover:bg-brand-accent hover:border-brand-accent hover:text-white transition-all hover:scale-110 shadow-lg">
                             <i class="fa-brands fa-tiktok"></i>
                         </a>
-                        <a href="#" class="w-10 h-10 rounded-full bg-brand-black border border-brand-gray flex items-center justify-center text-gray-400 hover:bg-brand-accent hover:border-brand-accent hover:text-white transition-all hover:scale-110 shadow-lg">
+                        <a href="https://www.facebook.com/share/1E6CMPUa3Q/?mibextid=wwXIfr" target="_blank" class="w-10 h-10 rounded-full bg-brand-black border border-brand-gray flex items-center justify-center text-gray-400 hover:bg-brand-accent hover:border-brand-accent hover:text-white transition-all hover:scale-110 shadow-lg">
                             <i class="fa-brands fa-facebook-f"></i>
                         </a>
                     </div>

@@ -39,7 +39,7 @@ $servicios_destacados = [
             BRIAN FRANCO <br><span class="gradient-text">BARBERÍA</span>
         </h1>
         <p class="text-lg md:text-xl text-gray-300 mb-10 max-w-2xl mx-auto font-light leading-relaxed">
-            Los mejores especialistas en estética masculina de Berazategui.
+            Los mejores barberos de Zona Sur.
         </p>
         <div class="flex flex-col sm:flex-row items-center justify-center gap-4 flex-wrap">
             <a href="contacto.php" class="w-full sm:w-auto bg-brand-accent hover:bg-yellow-500 text-brand-black px-8 py-4 rounded-sm font-heading font-bold text-lg tracking-wider transition-all hover:scale-105 shadow-[0_0_30px_rgba(217,119,6,0.4)] uppercase">
@@ -51,6 +51,13 @@ $servicios_destacados = [
         </div>
     </div>
 </section>
+
+<!-- Transición Fade / Glow -->
+<div class="relative w-full h-32 bg-brand-black flex items-center justify-center overflow-hidden">
+    <div class="absolute inset-0 bg-gradient-to-b from-brand-black via-brand-dark to-brand-black"></div>
+    <div class="w-full max-w-5xl h-[1px] bg-gradient-to-r from-transparent via-brand-accent/20 to-transparent relative z-10"></div>
+    <div class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-96 h-32 bg-brand-accent/5 rounded-full blur-[50px] pointer-events-none"></div>
+</div>
 
 <!-- Features Section -->
 <section class="py-24 bg-brand-black relative" id="servicios">
