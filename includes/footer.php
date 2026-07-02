@@ -12,13 +12,13 @@
             <div class="grid grid-cols-1 md:grid-cols-3 gap-12 mb-12">
                 <div>
                     <a href="index.php" class="text-2xl font-heading font-bold tracking-wider text-white mb-4 block">
-                        BRIAN FRANCO<span class="text-brand-accent">.</span>
+                        BRIAN FRANCO BARBERÍA
                     </a>
                     <p class="text-gray-400 mt-4 leading-relaxed font-light max-w-sm">
                         Barbería de excelencia en Berazategui. Simplicidad, calidad y el mejor ambiente.
                     </p>
                     <div class="flex space-x-4 mt-6">
-                        <a href="#" class="w-10 h-10 rounded-full bg-brand-black border border-brand-gray flex items-center justify-center text-gray-400 hover:bg-brand-accent hover:border-brand-accent hover:text-white transition-all hover:scale-110 shadow-lg">
+                        <a href="https://www.instagram.com/brianfrancobarberia?igsh=MXR6N3V2bDJmNmYzZQ==" target="_blank" class="w-10 h-10 rounded-full bg-brand-black border border-brand-gray flex items-center justify-center text-gray-400 hover:bg-brand-accent hover:border-brand-accent hover:text-white transition-all hover:scale-110 shadow-lg">
                             <i class="fa-brands fa-instagram"></i>
                         </a>
                         <a href="#" class="w-10 h-10 rounded-full bg-brand-black border border-brand-gray flex items-center justify-center text-gray-400 hover:bg-brand-accent hover:border-brand-accent hover:text-white transition-all hover:scale-110 shadow-lg">
@@ -57,7 +57,7 @@
                         </li>
                         <li class="flex items-center group">
                             <i class="fa-brands fa-whatsapp mr-4 text-brand-accent group-hover:scale-110 transition-transform text-lg"></i>
-                            <span>+54 9 11 1234-5678</span>
+                            <span>+54 9 11 2834-7484</span>
                         </li>
                     </ul>
                 </div>

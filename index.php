@@ -23,14 +23,14 @@ $servicios_destacados = [
 ?>
 
 <!-- Hero Section -->
-<section class="relative min-h-[85vh] flex items-center justify-center overflow-hidden py-16">
+<section class="relative min-h-[65vh] md:min-h-[85vh] flex items-center justify-center overflow-hidden py-16 md:py-24">
     <!-- IMAGEN HERO -->
     <div class="absolute inset-0 z-0">
-        <img src="hero.jpg" alt="Brian Franco y su equipo" class="w-full h-full object-cover object-top opacity-30">
-        <div class="absolute inset-0 bg-gradient-to-b from-brand-black/80 via-brand-black/50 to-brand-black"></div>
+        <img src="hero.jpg" alt="Brian Franco y su equipo" class="w-full h-full object-cover object-top opacity-50 md:opacity-30">
+        <div class="absolute inset-0 bg-gradient-to-b from-brand-black/60 via-brand-black/40 md:from-brand-black/80 md:via-brand-black/50 to-brand-black"></div>
     </div>
     
-    <div class="relative z-10 text-center px-4 max-w-5xl mx-auto mt-12">
+    <div class="relative z-10 text-center px-4 max-w-5xl mx-auto mt-6 md:mt-12">
         <span class="text-brand-accent font-bold tracking-[0.2em] uppercase text-sm md:text-base mb-4 flex flex-col md:flex-row items-center justify-center animate-fade-in">
             <span class="flex items-center"><i class="fa-solid fa-location-dot mr-2"></i> C.164 1328 E 13 y 14</span>
             <span class="md:ml-2">(Berazategui)</span>
