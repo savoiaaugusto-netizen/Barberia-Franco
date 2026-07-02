@@ -3,15 +3,7 @@ $page_title = 'Brian Franco Barbería | Contacto y Reservas';
 include 'includes/header.php';
 ?>
 
-<!-- Header de Página -->
-<div class="bg-brand-black pt-28 pb-12 border-b border-brand-gray relative">
-    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 text-center">
-        <h1 class="text-4xl md:text-6xl font-heading font-bold mb-4 text-white uppercase tracking-tight">SACAR <span class="gradient-text">TURNO</span></h1>
-        <p class="text-gray-400 text-lg">Te esperamos en Berazategui. Escríbenos por WhatsApp para agilizar tu reserva.</p>
-    </div>
-</div>
-
-<section class="py-20 bg-brand-black min-h-[60vh] relative overflow-hidden flex items-center justify-center">
+<section class="pt-32 pb-20 bg-brand-black min-h-[90vh] relative overflow-hidden flex items-center justify-center">
     <div class="absolute -left-[20%] top-20 w-[40%] h-[40%] bg-brand-accent/5 rounded-full blur-[120px] pointer-events-none"></div>
     <div class="absolute -right-[20%] bottom-20 w-[40%] h-[40%] bg-brand-accent/5 rounded-full blur-[120px] pointer-events-none"></div>
 

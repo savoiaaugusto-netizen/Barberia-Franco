@@ -52,13 +52,6 @@ $servicios_destacados = [
     </div>
 </section>
 
-<!-- Transición Fade / Glow -->
-<div class="relative w-full h-32 bg-brand-black flex items-center justify-center overflow-hidden">
-    <div class="absolute inset-0 bg-gradient-to-b from-brand-black via-brand-dark to-brand-black"></div>
-    <div class="w-full max-w-5xl h-[1px] bg-gradient-to-r from-transparent via-brand-accent/20 to-transparent relative z-10"></div>
-    <div class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-96 h-32 bg-brand-accent/5 rounded-full blur-[50px] pointer-events-none"></div>
-</div>
-
 <!-- Features Section -->
 <section class="py-24 bg-brand-black relative" id="servicios">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
