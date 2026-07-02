@@ -26,9 +26,9 @@ include 'includes/header.php';
                 </a>
             </div>
             
-            <div class="mt-12 pt-8 border-t border-brand-gray/50 flex flex-col md:flex-row items-center justify-center text-gray-400 gap-4">
+            <div class="mt-12 pt-8 border-t border-brand-gray/50 flex flex-col md:flex-row items-center justify-center text-gray-400 gap-4 text-center md:text-left">
                 <i class="fa-solid fa-location-dot text-brand-accent text-xl"></i>
-                <span>C.164 1328 E 13 y 14 (Berazategui, Buenos Aires)</span>
+                <span>C.164 1328 E 13 y 14 <br>(Berazategui, Buenos Aires)</span>
             </div>
         </div>
 
