@@ -21,7 +21,7 @@ include 'includes/header.php';
             </p>
             
             <div>
-                <a href="https://wa.me/5491128347484" target="_blank" class="w-full sm:w-auto inline-flex items-center justify-center bg-brand-accent hover:bg-yellow-500 text-brand-black font-heading font-bold text-xl px-12 py-5 rounded-sm transition-all duration-300 hover:-translate-y-1 hover:shadow-[0_10px_30px_rgba(217,119,6,0.4)] uppercase tracking-[0.1em]">
+                <a href="https://wa.me/5491128347484?text=Hola,%20quiero%20sacar%20un%20turno" target="_blank" class="w-full sm:w-auto inline-flex items-center justify-center bg-brand-accent hover:bg-yellow-500 text-brand-black font-heading font-bold text-xl px-12 py-5 rounded-sm transition-all duration-300 hover:-translate-y-1 hover:shadow-[0_10px_30px_rgba(217,119,6,0.4)] uppercase tracking-[0.1em]">
                     <i class="fa-brands fa-whatsapp mr-3 text-2xl"></i> Hablar por WhatsApp
                 </a>
             </div>
