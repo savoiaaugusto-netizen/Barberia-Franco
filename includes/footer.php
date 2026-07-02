@@ -34,12 +34,8 @@
                     <h3 class="text-xl font-heading text-white mb-6 uppercase tracking-wider">Horarios</h3>
                     <ul class="space-y-3 text-gray-400">
                         <li class="flex justify-between border-b border-brand-gray/50 pb-2">
-                            <span>Lunes - Viernes</span>
-                            <span class="text-white font-medium">10:00 - 20:00</span>
-                        </li>
-                        <li class="flex justify-between border-b border-brand-gray/50 pb-2">
-                            <span>Sábados</span>
-                            <span class="text-white font-medium">10:00 - 18:00</span>
+                            <span>Lunes - Sábados</span>
+                            <span class="text-white font-medium">09:00 - 21:00</span>
                         </li>
                         <li class="flex justify-between text-brand-accent font-medium pt-1">
                             <span>Domingos</span>
