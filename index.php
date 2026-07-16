@@ -69,8 +69,8 @@ $servicios_destacados = [
                 
                 <!-- Fondo Translúcido -->
                 <div class="absolute inset-0 z-0">
-                    <img src="<?= htmlspecialchars($servicio['img']) ?>" alt="<?= htmlspecialchars($servicio['titulo']) ?>" class="w-full h-full object-cover opacity-30 group-hover:opacity-40 transition-all duration-700 group-hover:scale-105">
-                    <div class="absolute inset-0 bg-brand-dark/80 group-hover:bg-brand-dark/70 transition-colors duration-500"></div>
+                    <img src="<?= htmlspecialchars($servicio['img']) ?>" alt="<?= htmlspecialchars($servicio['titulo']) ?>" class="w-full h-full object-cover opacity-60 group-hover:opacity-80 transition-all duration-700 group-hover:scale-105">
+                    <div class="absolute inset-0 bg-brand-dark/60 group-hover:bg-brand-dark/40 transition-colors duration-500"></div>
                 </div>
 
                 <div class="absolute inset-0 bg-gradient-to-br from-brand-accent/5 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500 z-0"></div>
