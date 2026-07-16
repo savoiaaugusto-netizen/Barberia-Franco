@@ -7,17 +7,20 @@ $servicios_destacados = [
     [
         'icono' => 'fa-scissors',
         'titulo' => 'Corte de Pelo',
-        'descripcion' => 'Asesoramiento personalizado, cortes clásicos, modernos y degradados (fade) utilizando técnicas precisas a máquina y tijera.'
+        'descripcion' => 'Asesoramiento personalizado, cortes clásicos, modernos y degradados (fade) utilizando técnicas precisas a máquina y tijera.',
+        'img' => 'corte.jpg'
     ],
     [
         'icono' => 'fa-check-double', 
         'titulo' => 'Barba',
-        'descripcion' => 'Perfilado, rebaje de volumen, diseño de líneas y ritual completo para el cuidado de tu barba con productos específicos.'
+        'descripcion' => 'Perfilado, rebaje de volumen, diseño de líneas y ritual completo para el cuidado de tu barba con productos específicos.',
+        'img' => 'barba.jpg'
     ],
     [
         'icono' => 'fa-spray-can',
         'titulo' => 'Tintura',
-        'descripcion' => 'Servicios de coloración, desde cobertura de canas hasta diseños de color y platinados para cambiar tu look radicalmente.'
+        'descripcion' => 'Servicios de coloración, desde cobertura de canas hasta diseños de color y platinados para cambiar tu look radicalmente.',
+        'img' => 'tintura.jpg'
     ]
 ];
 ?>
@@ -62,19 +65,26 @@ $servicios_destacados = [
         
         <div class="grid grid-cols-1 md:grid-cols-3 gap-8 lg:gap-12">
             <?php foreach ($servicios_destacados as $servicio): ?>
-            <div class="bg-brand-dark p-8 md:p-10 border border-brand-gray rounded-sm group hover:border-brand-accent/50 transition-all duration-500 hover:-translate-y-2 hover:shadow-[0_20px_40px_rgba(0,0,0,0.6)] relative overflow-hidden flex flex-col items-center text-center">
-                <div class="absolute inset-0 bg-gradient-to-br from-brand-accent/5 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
+            <div class="bg-brand-dark p-8 md:p-10 border border-brand-gray rounded-sm group hover:border-brand-accent/50 transition-all duration-500 hover:-translate-y-2 hover:shadow-[0_20px_40px_rgba(0,0,0,0.6)] relative overflow-hidden flex flex-col items-center text-center min-h-[350px]">
                 
-                <div class="w-20 h-20 bg-brand-black border border-brand-gray rounded-full flex items-center justify-center mb-6 group-hover:border-brand-accent group-hover:scale-110 transition-all duration-500 relative z-10 shadow-inner">
+                <!-- Fondo Translúcido -->
+                <div class="absolute inset-0 z-0">
+                    <img src="<?= htmlspecialchars($servicio['img']) ?>" alt="<?= htmlspecialchars($servicio['titulo']) ?>" class="w-full h-full object-cover opacity-30 group-hover:opacity-40 transition-all duration-700 group-hover:scale-105">
+                    <div class="absolute inset-0 bg-brand-dark/80 group-hover:bg-brand-dark/70 transition-colors duration-500"></div>
+                </div>
+
+                <div class="absolute inset-0 bg-gradient-to-br from-brand-accent/5 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500 z-0"></div>
+                
+                <div class="w-20 h-20 bg-brand-black/80 backdrop-blur-sm border border-brand-gray rounded-full flex items-center justify-center mb-6 group-hover:border-brand-accent group-hover:scale-110 transition-all duration-500 relative z-10 shadow-inner">
                     <i class="fa-solid <?= $servicio['icono'] ?> text-3xl text-brand-accent"></i>
                 </div>
                 
-                <h3 class="text-2xl font-heading font-bold text-white mb-4 relative z-10"><?= htmlspecialchars($servicio['titulo']) ?></h3>
-                <p class="text-gray-400 mb-6 relative z-10 font-light leading-relaxed flex-grow">
+                <h3 class="text-2xl font-heading font-bold text-white mb-4 relative z-10 drop-shadow-md"><?= htmlspecialchars($servicio['titulo']) ?></h3>
+                <p class="text-gray-300 mb-6 relative z-10 font-light leading-relaxed flex-grow drop-shadow-md">
                     <?= htmlspecialchars($servicio['descripcion']) ?>
                 </p>
                 <div class="pt-4 relative z-10 w-full border-t border-brand-gray/50">
-                    <a href="contacto.php" class="text-gray-300 text-sm font-bold uppercase hover:text-brand-accent transition-colors flex items-center justify-center">Consultar turnos <i class="fa-solid fa-arrow-right ml-2 text-xs"></i></a>
+                    <a href="contacto.php" class="text-gray-200 text-sm font-bold uppercase hover:text-brand-accent transition-colors flex items-center justify-center drop-shadow-md">Consultar turnos <i class="fa-solid fa-arrow-right ml-2 text-xs"></i></a>
                 </div>
             </div>
             <?php endforeach; ?>
