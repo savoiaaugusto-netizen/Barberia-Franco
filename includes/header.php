@@ -69,21 +69,6 @@ $page_title = $page_title ?? 'Brian Franco Barbería | Berazategui';
                     <a href="#servicios" class="font-medium transition-colors hover:text-brand-accent text-gray-300">Servicios</a>
                     <a href="#esencia" class="font-medium transition-colors hover:text-brand-accent text-gray-300">Esencia</a>
                 </div>
-                <!-- Botón Menú Mobile -->
-                <div class="md:hidden flex items-center">
-                    <button id="mobile-menu-btn" class="text-gray-300 hover:text-white focus:outline-none p-2 transition-transform active:scale-95">
-                        <i class="fa-solid fa-bars text-2xl"></i>
-                    </button>
-                </div>
-            </div>
-        </div>
-        
-        <!-- Menú Mobile -->
-        <div id="mobile-menu" class="hidden md:hidden bg-brand-dark border-b border-brand-gray absolute w-full shadow-2xl">
-            <div class="px-4 pt-2 pb-6 space-y-2 flex flex-col text-center">
-                <a href="#barberos" class="block px-3 py-3 text-base font-medium hover:text-brand-accent hover:bg-brand-gray rounded-md transition-colors text-brand-accent bg-brand-gray/50">Elegir Barbero</a>
-                <a href="#servicios" class="block px-3 py-3 text-base font-medium hover:text-brand-accent hover:bg-brand-gray rounded-md transition-colors text-gray-300">Nuestros Servicios</a>
-                <a href="#esencia" class="block px-3 py-3 text-base font-medium hover:text-brand-accent hover:bg-brand-gray rounded-md transition-colors text-gray-300">Nuestra Esencia</a>
             </div>
         </div>
     </nav>

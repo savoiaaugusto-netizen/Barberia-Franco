@@ -28,11 +28,11 @@ $servicios_destacados = [
 <!-- Barber Selection Section -->
 <section id="barberos" class="w-full min-h-[100vh] lg:min-h-[calc(100vh-5rem)] grid grid-cols-1 lg:grid-cols-2 relative z-10">
     <!-- Barbero Izquierda -->
-    <a href="https://wa.me/5491128347484?text=Hola,%20quiero%20sacar%20turno%20con%20el%20barbero%201" class="relative group block h-[50vh] lg:h-auto overflow-hidden border-b lg:border-b-0 lg:border-r border-brand-gray/50">
-        <img src="barbero_1.jpg" alt="Barbero 1" class="absolute inset-0 w-full h-full object-cover grayscale opacity-70 group-hover:grayscale-0 group-hover:opacity-100 group-hover:scale-105 transition-all duration-700">
+    <a href="https://wa.me/5491128347484?text=Hola,%20quiero%20sacar%20turno%20con%20Juan%20Franco" class="relative group block h-[50vh] lg:h-auto overflow-hidden border-b lg:border-b-0 lg:border-r border-brand-gray/50">
+        <img src="barbero_1.jpg" alt="Juan Franco" class="absolute inset-0 w-full h-full object-cover opacity-80 group-hover:opacity-100 group-hover:scale-105 transition-all duration-700">
         <div class="absolute inset-0 bg-gradient-to-t from-brand-black/90 via-brand-black/30 to-transparent group-hover:from-brand-black/70 transition-all duration-500"></div>
         <div class="absolute inset-x-0 bottom-12 text-center z-10 px-4">
-            <h2 class="text-4xl md:text-5xl font-heading font-bold text-white mb-4 tracking-wider drop-shadow-[0_5px_5px_rgba(0,0,0,0.8)]">BARBERO 1</h2>
+            <h2 class="text-4xl md:text-5xl font-heading font-bold text-white mb-4 tracking-wider drop-shadow-[0_5px_5px_rgba(0,0,0,0.8)]">JUAN FRANCO</h2>
             <div class="inline-flex items-center justify-center bg-brand-accent hover:bg-yellow-500 text-brand-black font-heading font-bold text-lg px-8 py-3 rounded-sm transition-all duration-300 transform group-hover:-translate-y-1 group-hover:shadow-[0_10px_30px_rgba(217,119,6,0.6)] uppercase tracking-[0.1em]">
                 Sacar Turno <i class="fa-solid fa-arrow-right ml-3"></i>
             </div>
@@ -40,11 +40,11 @@ $servicios_destacados = [
     </a>
     
     <!-- Barbero Derecha -->
-    <a href="https://wa.me/5491128347484?text=Hola,%20quiero%20sacar%20turno%20con%20el%20barbero%202" class="relative group block h-[50vh] lg:h-auto overflow-hidden">
-        <img src="barbero_2.jpg" alt="Barbero 2" class="absolute inset-0 w-full h-full object-cover grayscale opacity-70 group-hover:grayscale-0 group-hover:opacity-100 group-hover:scale-105 transition-all duration-700">
+    <a href="https://wa.me/5491128347484?text=Hola,%20quiero%20sacar%20turno%20con%20Brian%20Franco" class="relative group block h-[50vh] lg:h-auto overflow-hidden">
+        <img src="barbero_2.jpg" alt="Brian Franco" class="absolute inset-0 w-full h-full object-cover opacity-80 group-hover:opacity-100 group-hover:scale-105 transition-all duration-700">
         <div class="absolute inset-0 bg-gradient-to-t from-brand-black/90 via-brand-black/30 to-transparent group-hover:from-brand-black/70 transition-all duration-500"></div>
         <div class="absolute inset-x-0 bottom-12 text-center z-10 px-4">
-            <h2 class="text-4xl md:text-5xl font-heading font-bold text-white mb-4 tracking-wider drop-shadow-[0_5px_5px_rgba(0,0,0,0.8)]">BARBERO 2</h2>
+            <h2 class="text-4xl md:text-5xl font-heading font-bold text-white mb-4 tracking-wider drop-shadow-[0_5px_5px_rgba(0,0,0,0.8)]">BRIAN FRANCO</h2>
             <div class="inline-flex items-center justify-center bg-brand-accent hover:bg-yellow-500 text-brand-black font-heading font-bold text-lg px-8 py-3 rounded-sm transition-all duration-300 transform group-hover:-translate-y-1 group-hover:shadow-[0_10px_30px_rgba(217,119,6,0.6)] uppercase tracking-[0.1em]">
                 Sacar Turno <i class="fa-solid fa-arrow-right ml-3"></i>
             </div>
