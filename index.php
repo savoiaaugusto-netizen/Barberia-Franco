@@ -25,34 +25,31 @@ $servicios_destacados = [
 ];
 ?>
 
-<!-- Hero Section -->
-<section class="relative min-h-[65vh] md:min-h-[85vh] flex items-center justify-center overflow-hidden py-16 md:py-24">
-    <!-- IMAGEN HERO -->
-    <div class="absolute inset-0 z-0">
-        <img src="hero.jpg" alt="Brian Franco y su equipo" class="w-full h-full object-cover object-top opacity-50 md:opacity-30">
-        <div class="absolute inset-0 bg-gradient-to-b from-brand-black/60 via-brand-black/40 md:from-brand-black/80 md:via-brand-black/50 to-brand-black"></div>
-    </div>
-    
-    <div class="relative z-10 text-center px-4 max-w-5xl mx-auto mt-6 md:mt-12">
-        <span class="text-brand-accent font-bold tracking-[0.2em] uppercase text-sm md:text-base mb-4 flex flex-col md:flex-row items-center justify-center animate-fade-in">
-            <span class="flex items-center"><i class="fa-solid fa-location-dot mr-2"></i> C.164 1328 E 13 y 14</span>
-            <span class="md:ml-2">(Berazategui)</span>
-        </span>
-        <h1 class="text-5xl md:text-6xl lg:text-[5.5rem] font-heading font-bold text-white mb-6 drop-shadow-2xl leading-none tracking-tight">
-            BRIAN FRANCO <br><span class="gradient-text">BARBERÍA</span>
-        </h1>
-        <p class="text-lg md:text-xl text-gray-300 mb-10 max-w-2xl mx-auto font-light leading-relaxed">
-            Los mejores barberos de Zona Sur.
-        </p>
-        <div class="flex flex-col sm:flex-row items-center justify-center gap-4 flex-wrap">
-            <a href="contacto.php" class="w-full sm:w-auto bg-brand-accent hover:bg-yellow-500 text-brand-black px-8 py-4 rounded-sm font-heading font-bold text-lg tracking-wider transition-all hover:scale-105 shadow-[0_0_30px_rgba(217,119,6,0.4)] uppercase">
-                Agendar Turno
-            </a>
-            <a href="productos.php" class="w-full sm:w-auto bg-transparent border border-white hover:border-brand-accent hover:text-brand-accent text-white px-8 py-4 rounded-sm font-heading font-bold text-lg tracking-wider transition-all uppercase">
-                Ver Productos
-            </a>
+<!-- Barber Selection Section -->
+<section id="barberos" class="w-full min-h-[100vh] lg:min-h-[calc(100vh-5rem)] grid grid-cols-1 lg:grid-cols-2 relative z-10">
+    <!-- Barbero Izquierda -->
+    <a href="https://wa.me/5491128347484?text=Hola,%20quiero%20sacar%20turno%20con%20el%20barbero%201" class="relative group block h-[50vh] lg:h-auto overflow-hidden border-b lg:border-b-0 lg:border-r border-brand-gray/50">
+        <img src="barbero_1.jpg" alt="Barbero 1" class="absolute inset-0 w-full h-full object-cover grayscale opacity-70 group-hover:grayscale-0 group-hover:opacity-100 group-hover:scale-105 transition-all duration-700">
+        <div class="absolute inset-0 bg-gradient-to-t from-brand-black/90 via-brand-black/30 to-transparent group-hover:from-brand-black/70 transition-all duration-500"></div>
+        <div class="absolute inset-x-0 bottom-12 text-center z-10 px-4">
+            <h2 class="text-4xl md:text-5xl font-heading font-bold text-white mb-4 tracking-wider drop-shadow-[0_5px_5px_rgba(0,0,0,0.8)]">BARBERO 1</h2>
+            <div class="inline-flex items-center justify-center bg-brand-accent hover:bg-yellow-500 text-brand-black font-heading font-bold text-lg px-8 py-3 rounded-sm transition-all duration-300 transform group-hover:-translate-y-1 group-hover:shadow-[0_10px_30px_rgba(217,119,6,0.6)] uppercase tracking-[0.1em]">
+                Sacar Turno <i class="fa-solid fa-arrow-right ml-3"></i>
+            </div>
         </div>
-    </div>
+    </a>
+    
+    <!-- Barbero Derecha -->
+    <a href="https://wa.me/5491128347484?text=Hola,%20quiero%20sacar%20turno%20con%20el%20barbero%202" class="relative group block h-[50vh] lg:h-auto overflow-hidden">
+        <img src="barbero_2.jpg" alt="Barbero 2" class="absolute inset-0 w-full h-full object-cover grayscale opacity-70 group-hover:grayscale-0 group-hover:opacity-100 group-hover:scale-105 transition-all duration-700">
+        <div class="absolute inset-0 bg-gradient-to-t from-brand-black/90 via-brand-black/30 to-transparent group-hover:from-brand-black/70 transition-all duration-500"></div>
+        <div class="absolute inset-x-0 bottom-12 text-center z-10 px-4">
+            <h2 class="text-4xl md:text-5xl font-heading font-bold text-white mb-4 tracking-wider drop-shadow-[0_5px_5px_rgba(0,0,0,0.8)]">BARBERO 2</h2>
+            <div class="inline-flex items-center justify-center bg-brand-accent hover:bg-yellow-500 text-brand-black font-heading font-bold text-lg px-8 py-3 rounded-sm transition-all duration-300 transform group-hover:-translate-y-1 group-hover:shadow-[0_10px_30px_rgba(217,119,6,0.6)] uppercase tracking-[0.1em]">
+                Sacar Turno <i class="fa-solid fa-arrow-right ml-3"></i>
+            </div>
+        </div>
+    </a>
 </section>
 
 <!-- Features Section -->
@@ -84,7 +81,7 @@ $servicios_destacados = [
                     <?= htmlspecialchars($servicio['descripcion']) ?>
                 </p>
                 <div class="pt-4 relative z-10 w-full border-t border-brand-gray/50">
-                    <a href="contacto.php" class="text-gray-200 text-sm font-bold uppercase hover:text-brand-accent transition-colors flex items-center justify-center drop-shadow-md">Consultar turnos <i class="fa-solid fa-arrow-right ml-2 text-xs"></i></a>
+                    <a href="#barberos" class="text-gray-200 text-sm font-bold uppercase hover:text-brand-accent transition-colors flex items-center justify-center drop-shadow-md">Elegir Barbero <i class="fa-solid fa-arrow-up ml-2 text-xs"></i></a>
                 </div>
             </div>
             <?php endforeach; ?>
@@ -117,9 +114,8 @@ $servicios_destacados = [
                 <p class="text-gray-400 mb-10 leading-relaxed font-light">
                     Nuestra filosofía es simple: buenos cortes, excelente atención y buena música. Venís, te sentás y salís con tu mejor versión.
                 </p>
-                
-                <a href="contacto.php" class="inline-flex items-center text-brand-black bg-white hover:bg-gray-200 px-8 py-3 font-heading font-bold uppercase tracking-wider transition-colors">
-                    Visítanos Hoy <i class="fa-solid fa-location-arrow ml-3"></i>
+                <a href="#barberos" class="inline-flex items-center text-brand-black bg-white hover:bg-gray-200 px-8 py-3 font-heading font-bold uppercase tracking-wider transition-colors mt-4">
+                    Sacar Turno <i class="fa-solid fa-arrow-up ml-3 text-brand-accent"></i>
                 </a>
             </div>
         </div>
