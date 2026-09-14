@@ -62,7 +62,7 @@ $servicios_destacados = [
         
         <div class="grid grid-cols-1 md:grid-cols-3 gap-8 lg:gap-12">
             <?php foreach ($servicios_destacados as $servicio): ?>
-            <div class="bg-brand-dark p-8 md:p-10 border border-brand-gray rounded-sm group hover:border-brand-accent/50 transition-all duration-500 hover:-translate-y-2 hover:shadow-[0_20px_40px_rgba(0,0,0,0.6)] relative overflow-hidden flex flex-col items-center text-center min-h-[350px]">
+            <div class="bg-brand-dark p-8 md:p-10 border border-brand-gray rounded-sm group hover:border-brand-accent/50 transition-all duration-1000 hover:-translate-y-2 hover:shadow-[0_20px_40px_rgba(0,0,0,0.6)] relative overflow-hidden flex flex-col items-center text-center min-h-[350px] opacity-0 translate-y-12 reveal-element">
                 
                 <!-- Fondo Translúcido -->
                 <div class="absolute inset-0 z-0">
@@ -121,5 +121,24 @@ $servicios_destacados = [
         </div>
     </div>
 </section>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    const observer = new IntersectionObserver((entries) => {
+        entries.forEach((entry, index) => {
+            if (entry.isIntersecting) {
+                // Pequeño delay en cascada si aparecen varios a la vez
+                setTimeout(() => {
+                    entry.target.classList.remove('opacity-0', 'translate-y-12');
+                    entry.target.classList.add('opacity-100', 'translate-y-0');
+                }, index * 150);
+                observer.unobserve(entry.target);
+            }
+        });
+    }, { threshold: 0.15 });
+
+    document.querySelectorAll('.reveal-element').forEach(el => observer.observe(el));
+});
+</script>
 
 <?php include 'includes/footer.php'; ?>

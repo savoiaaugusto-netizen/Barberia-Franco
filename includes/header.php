@@ -58,7 +58,7 @@ $page_title = $page_title ?? 'Brian Franco Barbería | Berazategui';
                 <div class="flex-shrink-0 flex items-center">
                     <a href="index.php" class="flex items-center gap-3">
                         <img src="logo.png" alt="Logo Brian Franco Barbería" class="h-12 w-auto object-contain">
-                        <span class="text-xl md:text-2xl font-heading font-bold tracking-wider text-white hidden sm:block">
+                        <span class="text-base sm:text-xl md:text-2xl font-heading font-bold tracking-wider text-white block">
                             BRIAN FRANCO <span class="text-brand-accent">BARBERÍA</span>
                         </span>
                     </a>
