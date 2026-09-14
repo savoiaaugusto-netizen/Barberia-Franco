@@ -63,12 +63,7 @@ $page_title = $page_title ?? 'Brian Franco Barbería | Berazategui';
                         </span>
                     </a>
                 </div>
-                <!-- Menú Desktop -->
-                <div class="hidden md:flex items-center space-x-6 lg:space-x-8">
-                    <a href="#barberos" class="font-medium transition-colors hover:text-brand-accent text-brand-accent">Barberos</a>
-                    <a href="#servicios" class="font-medium transition-colors hover:text-brand-accent text-gray-300">Servicios</a>
-                    <a href="#esencia" class="font-medium transition-colors hover:text-brand-accent text-gray-300">Esencia</a>
-                </div>
+                <!-- Menú Desktop eliminado a petición del usuario -->
             </div>
         </div>
     </nav>
